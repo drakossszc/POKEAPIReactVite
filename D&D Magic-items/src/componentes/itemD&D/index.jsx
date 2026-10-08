@@ -31,7 +31,11 @@ function Itemdyd() {
                 <p>{itemdyd.desc.join(' ')}</p>
             </div>
         )}
+        <button onClick={toggleFavorito}>
+            {esFavorito ? '❤️' : '🤍'}
+            </button>
     </div>
+    
 );
 }
 
