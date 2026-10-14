@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
-import Inicio from "./components/inicio";
-import Favoritos from "./components/favoritos";
-import Info from "./components/info";
-import Coleccion from "./components/coleccion";
-import Usuario from "./components/usuario";
-import Pokemon from "./components/pokemon";
+import Inicio from "./componentes/Inicio";
+import Favoritos from "./componentes/Favoritos";
+import Info from "./componentes/Info";
+import Coleccion from "./componentes/Coleccion";
+import Pokemon from "./componentes/Pokemon";
+import Usuario from "./componentes/Usuario";
 import './App.css';
 
 const navItems = [
